@@ -2,17 +2,16 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Matrix
-{//• название товара;
-    //• название магазина, в котором продается товар;
-    //• стоимость товара в гривнах.
+namespace Indexer
+{
     class Article
     {
-        private string ProductName { get; set; }
+        public string ProductName { get; }
 
         private string ShopName { get; set; }
 
         private decimal Cost { get; set; }
+
 
         public Article(string productName, string shopName, decimal cost)
         {
@@ -21,6 +20,13 @@ namespace Matrix
             ShopName = shopName;
 
             Cost = cost;
+        }
+
+      
+
+        public void Show()
+        {
+            Console.WriteLine($"Информация о товаре: {ProductName}, {ShopName}, {Cost}");
         }
     }
 }

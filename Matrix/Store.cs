@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Matrix
+namespace Indexer
 {
-    class Store
+    class Store 
     {
         //Создать класс Store, содержащий закрытый массив элементов типа Article.
 
@@ -26,5 +26,22 @@ namespace Matrix
                 Articles[index] = value;
             }
         }
+
+        public Article this[string index]
+        {
+            get
+            {
+                foreach (var a in Articles)
+                {
+                    if (a.ProductName == index)
+                    {
+                        return a;
+                    }
+                }
+
+                return null;
+            }
+        }
+
     }
 }

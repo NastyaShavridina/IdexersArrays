@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array", "Array\Array.csproj", "{83C04C06-8714-4C2F-B9B6-273B00256A94}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matrix", "Matrix\Matrix.csproj", "{A3A96127-53A4-406D-9735-9B97B6F6EEF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Indexer", "Matrix\Indexer.csproj", "{A3A96127-53A4-406D-9735-9B97B6F6EEF8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Idexer", "Idexer\Idexer.csproj", "{AC3E97B5-BB51-4E7F-949A-D0F8D45CE396}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matrix", "Idexer\Matrix.csproj", "{AC3E97B5-BB51-4E7F-949A-D0F8D45CE396}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
